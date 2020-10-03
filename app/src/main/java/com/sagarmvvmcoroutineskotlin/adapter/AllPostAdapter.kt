@@ -1,4 +1,4 @@
-package com.sagarmvvmcoroutineskotlin
+package com.sagarmvvmcoroutineskotlin.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.sagarmvvmcoroutineskotlin.R
 import com.sagarmvvmcoroutineskotlin.model.AllPost
 
 class AllPostAdapter(val context: Context,private var arraylist: ArrayList<AllPost>) :

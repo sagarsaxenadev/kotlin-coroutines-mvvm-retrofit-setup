@@ -1,4 +1,4 @@
-package com.sagarmvvmcoroutineskotlin
+package com.sagarmvvmcoroutineskotlin.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,8 +8,12 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.sagarmvvmcoroutineskotlin.adapter.AllPostAdapter
+import com.sagarmvvmcoroutineskotlin.R
 import com.sagarmvvmcoroutineskotlin.factory.AllPostViewmodelFactory
 import com.sagarmvvmcoroutineskotlin.model.AllPost
+import com.sagarmvvmcoroutineskotlin.repositories.AllPostRepository
+import com.sagarmvvmcoroutineskotlin.viewmodel.AllPostViewModel
 
 class MainActivity : AppCompatActivity() {
 

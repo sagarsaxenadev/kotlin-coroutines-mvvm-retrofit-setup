@@ -1,4 +1,4 @@
-package com.sagarmvvmcoroutineskotlin
+package com.sagarmvvmcoroutineskotlin.repositories
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
